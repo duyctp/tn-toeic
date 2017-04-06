@@ -1,0 +1,84 @@
+.tn-degrees{
+	padding-top: 50px;
+	.tn-de-title{
+		h3{
+			padding-bottom: 20px;
+			margin-bottom: 0;
+			border-bottom: 1px solid $bd;
+			margin-top: 0;
+			font-weight: bold;
+			span{
+				color: $c2;
+				padding-bottom: 16px;
+				border-bottom: 3px solid $c1;
+			}
+		}
+	}
+	.tn-degree-item{
+		margin-top: 30px;
+		border: 1px solid $bd;
+		.d-img{
+			max-width: 100%;
+			img{
+				width: 100%;
+			}
+		}
+		.name{
+			color: $c1;
+			font-weight: bold;
+		}
+		.s-key{
+			color: $c1;
+			font-weight: bold;	
+		}
+		p{
+			padding-left: 15px;
+			padding-top: 7px;
+			padding-bottom: 7px;
+			margin-bottom: 0;
+		}
+		/*.m4-left{
+			background: $bg;
+		}*/
+	}
+	.honors{
+		margin-top: 20px;
+		.honors-item{
+			padding-top:10px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid $bd; 
+			.h-img{
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+			.h-title{
+				color: $c1;
+				//margin-top: 0;
+			}
+		}
+	}
+	.d-btn{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.news{
+		margin-top: 20px;
+		.news-item{
+			padding-top:10px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid $bd;
+			.n-img{
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+			.n-date{
+			    font-style: italic;
+				color: #7d7d7d;
+			}
+		}
+	}
+}

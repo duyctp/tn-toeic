@@ -1,0 +1,38 @@
+.lkg-top-title {
+  color: #d4101a;
+  padding-bottom: 10px; }
+
+.lkg-contain {
+  background: #f8f8f8;
+  padding: 10px; }
+  .lkg-contain .block_filter table td {
+    padding: 5px; }
+    .lkg-contain .block_filter table td select {
+      padding: 3px;
+      border: 1px solid #CCC;
+      width: 200px;
+      height: 36px; }
+  .lkg-contain .block_filter table td.cs {
+    padding-left: 30px; }
+
+.block-lichhoc {
+  margin-top: 20px; }
+  .block-lichhoc .block-lichhoc-title {
+    color: #fff;
+    background: #2e3373;
+    padding: 10px 0 10px 15px; }
+  .block-lichhoc .block-khoahoc .thoigianhoc .thu {
+    padding: 5px 0;
+    border-bottom: 1px solid #EEE; }
+  .block-lichhoc .block-khoahoc .thoigianhoc .buoi {
+    padding: 5px 0; }
+  .block-lichhoc .block-khoahoc .title {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 16px; }
+    .block-lichhoc .block-khoahoc .title .khoahoc {
+      font-size: 14px; }
+  .block-lichhoc .block-khoahoc tbody tr td {
+    padding: 0 0 0 8px; }
+
+/*# sourceMappingURL=lichkhaigiang.css.map */

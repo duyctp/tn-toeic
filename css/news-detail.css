@@ -1,0 +1,23 @@
+.n-news-detail .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+.n-news-detail .video-container iframe,
+.n-news-detail .video-container object,
+.n-news-detail .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+.n-news-detail .deatil-title {
+  color: #2e3373; }
+  .n-news-detail .deatil-title .deatil-date .date {
+    padding-right: 20px; }
+.n-news-detail img {
+  width: 100%;
+  height: auto; }
+
+/*# sourceMappingURL=news-detail.css.map */

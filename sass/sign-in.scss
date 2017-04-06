@@ -1,0 +1,25 @@
+@import 'variables'; // colors, fonts etc...
+//@import '../bower_components/components-font-awesome/scss/font-awesome';
+
+@import 'mixins'; // custom mixins
+
+.btn-facebook {
+    background: #3B5998;
+    color: #fff!important;
+}
+.btn-google {
+    background: #dd4b39;
+    color: #fff!important;
+}
+.push-top-xs{
+	margin-top: 10px;
+}
+.sign-in{
+	background: $bg;
+
+	.sign-in-box{
+		margin-top: 40px;
+		background: #fff;
+		margin-bottom: 40px;
+	}
+}

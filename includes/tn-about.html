@@ -1,0 +1,66 @@
+<div class="tn-about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 tn-head-title">
+				<h1><span class="tn-h1-title">GIỚI THIỆU</span></h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5">
+				<div class="about-contain-text">
+					<h3>TOEIC THẦY NHÂN</h3>
+					<p>Khi nhắc đến Thầy Nhân TOEIC mọi người sẽ nghĩ ngay 
+					là một địa chỉ luyện thi TOEIC, Tiếng anh giao tiếp công
+					việc tin cậy, uy tín nhất ở , HCM đối với các bạn có nhu 
+					cầu Luyện thi TOEIC, học giao tiếp tiếng Anh.<br><br>
+
+					Đừng chần chừ, câu hỏi nên học TOEIC ở đâu của bạn đã 
+					có câu trả lời rồi đó. Hiện nay Thầy Nhân TOEIC có 5 
+					địa chỉ luyện thi TOEIC tại  Hồ Chí Minh:</p>
+					<a href="#" class="btn tn-btn tn-btnfillr btn-a"><span class="xt">Xem Chi Tiết</span></a>
+					<a href="#" class="btn tn-btn tn-btnline btn-a"><span class="xt">Liên Hệ</span></a>
+				</div>
+			</div>
+			<div class="col-md-7">
+				<div id="player"></div>
+				<!-- <button class="start-video"></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+//youtube script
+var tag = document.createElement('script');
+tag.src = "//www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+
+onYouTubeIframeAPIReady = function () {
+    player = new YT.Player('player', {
+        height: '369',
+        width: '100%',
+        videoId: 'I9CZ-nj9joM',  // youtube video id
+        playerVars: {
+            'autoplay': 0,
+            'rel': 0,
+            'showinfo': 0
+        },
+        events: {
+            'onStateChange': onPlayerStateChange
+        }
+    });
+}
+
+onPlayerStateChange = function (event) {
+    if (event.data == YT.PlayerState.ENDED) {
+        $('.start-video').fadeIn('normal');
+    }
+}
+
+$(document).on('click', '.start-video', function () {
+    $(this).fadeOut('normal');
+    player.playVideo();
+});
+</script>

@@ -1,0 +1,16 @@
+// @mixin border-radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+// mixin p
+@mixin font-face($size: false, $weight: null, $color: null, $lh: false) {
+    //font-style: $style;
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+    line-height: $lh;
+}

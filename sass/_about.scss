@@ -1,0 +1,16 @@
+.tn-about{
+	background: $bg;
+	margin-top: 50px;
+	padding-bottom: 70px;
+	.about-contain-text{
+		h3{
+			font-weight: bold;
+			color: $c2;
+			padding-bottom: 15px;
+		}
+		.btn-a{
+			margin-top: 30px;
+			margin-right: 9px;
+		}
+	}
+}

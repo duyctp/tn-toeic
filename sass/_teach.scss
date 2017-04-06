@@ -1,0 +1,76 @@
+.tn-teachers{
+	background: $c1;
+	padding: 50px 0px;
+	.carousel{
+		padding: 0 60px;
+		margin: 0 auto;
+		.carousel-inner{
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			.item{
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+		}
+		.carousel-control.left, .carousel-control.right{
+		    background-image: none;
+		}
+		.carousel-control {
+		    position: absolute;
+		    top: 40%;
+		    bottom: 0;
+		    /* background: #fff; */
+		    text-shadow: none;
+		    width: 40px;
+		    font-size: 20px;
+		    color: #d4101a;
+		    text-align: center;
+		    
+		    background-color: #fff;
+		    filter: alpha(opacity=50);
+		    opacity: 1;
+		    height: 40px;
+		    border-radius: 40px;
+		    .glyphicon-chevron-left{
+		    	top: 44%;
+			    left: 40%;
+			    font-size: 25px;
+			}
+			.glyphicon-chevron-right{
+				top: 44%;
+			    left: 10%;
+			    font-size: 25px;
+			}
+		}
+	}
+	.teach-contain{
+		text-align: center;
+		color: #fff;
+		h3{
+			font-weight: bold;
+			padding-bottom: 30px;
+			margin-top: 0;
+
+		}
+		.t-img{
+			margin-bottom: 10px;
+			img{
+				max-height: 40px;
+			}
+		}
+		.t-text{
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.t-des{
+			p{
+				font-weight: lighter;
+				padding-top: 20px;
+			}
+		}
+	}
+}
+.tn-banner-a{
+	img{
+		width: 100%;
+		height: auto;
+	}
+}

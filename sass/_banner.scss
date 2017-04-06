@@ -1,0 +1,17 @@
+.tn-banner{
+	border-top: 2px solid $bd;
+	.carousel-control.left, .carousel-control.right{
+		    background-image: none;
+	}
+	.tn-medias{
+		background: $c2;
+		padding: 15px 15px;
+		.tn-media{
+			text-align: center;
+			color: #fff;
+			.media-text{
+				padding-top: 5px;
+			}
+		}
+	}
+}

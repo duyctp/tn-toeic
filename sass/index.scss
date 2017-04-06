@@ -1,0 +1,257 @@
+@import 'variables'; // colors, fonts etc...
+//@import '../bower_components/components-font-awesome/scss/font-awesome';
+
+@import 'mixins'; // custom mixins
+
+@import 'header'; // header
+
+@import 'banner'; // banner
+
+@import 'course'; // news
+
+@import 'about'; // recommend
+
+@import 'teach'; // location
+
+@import 'degree'; // feature
+
+@import 'footer'; // feature
+.tn-btn{
+    color: #fff;
+    font-size: 16px;
+    padding: 0.3em 2.7em;
+    display: inline-block;
+    font-weight: lighter;
+    @include border-radius(20px);
+
+    
+} 
+.tn-banner-a{
+    margin-top: 30px;
+}
+.emty{
+    padding-top:20px;
+    float: left;
+    width:100%;
+    display: block;
+}
+.sk-btn-sm{
+    padding: 0.3em 1.4em;
+    display: inline-block;
+    font-weight: 300;
+    @include border-radius(1px);
+}
+.sk-btn-outline{
+    color: $h1;
+    border: 1px solid $c1;
+}
+.tn-btnfill{
+    color: #fff;
+    background: $c2;
+    &:hover{
+        color:$c2;
+        background: #fff;
+        border: 1px solid $c2;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+}
+.btn-block{
+    background: $c2;
+}
+.tn-btnfillw{
+    color: $c2;
+    background: #fff;
+    margin: 15px 0px;
+}
+.tn-btnfillr{
+    color: #fff;
+    background: $c1;
+    &:hover{
+        color:$c1;
+        background: #fff;
+        border: 1px solid $c1;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+}
+.tn-btnline{
+    border: 1px solid $c2;
+    color: $c2;
+    &:hover{
+        color:#fff;
+        background: $c2;
+        //border: 1px solid $c2;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+}
+.sk-btn-lg{
+    padding: 8px 30px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tn-head-title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    .tn-h1-title{
+        color: $c1;
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 5px;
+        border-bottom: 3px solid $bd;
+    }
+}
+@media screen and (max-width: 768px){
+    .tn-header{
+        .tn-brand{
+            float: none;
+            img{
+                margin-top: 20px;
+                max-height: 70px;
+            }
+        }
+        ul.tn-head-top{
+            float: none;
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .navbar-form {
+            .form-control{
+                width: 100px;
+            }
+        }
+    }
+    .tn-btnfillw{
+        margin: 0;
+    }
+    .tn-course-item{
+        margin-bottom: 40px;
+    }
+    .tn-course {
+        .col-md-3{
+            border-left: 0;
+        }
+    }
+    .about-contain-text{
+        margin-bottom: 30px;
+    }
+    .teach-contain{
+        margin-top: 40px;
+    }
+    .tbtn{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 767px){
+    .tn-header {
+        ul.tn-head-top {
+            li:first-child {
+            border-right: 0;
+            padding-left: 60px;
+            padding-bottom: 15px;
+            }
+            li{
+                padding: 0 18px;
+            }
+        }
+    }
+    .navbar-toggle{
+        float: left;
+        margin-left: 0;
+    }
+    .navbar {
+        margin-bottom: 5px;
+    }
+    .tn-media{
+        margin-bottom: 20px;
+    }
+    .navbar-form .form-control{
+        display: inline-block;
+    }
+    .tn-about{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .tn-header {
+        ul.tn-head-top {
+            li:first-child {
+            border-right: 0;
+            padding-left: 21px;
+            padding-bottom: 15px;
+            }
+            li{
+                padding: 0 8px;
+            }
+        }
+    }
+    .tn-media{
+        .media-img{
+            img{
+                max-height: 50px;
+            }
+        }
+        .media-text{
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+    .tn-banner{
+        .tn-medias{
+            padding: 30px 15px;
+        }
+    }
+    .tn-head-title{
+        padding-bottom: 20px;
+    }
+    .tn-about .about-contain-text .btn-a{
+        margin-top: 10px;
+    }
+    .tn-teachers .carousel{
+        padding: 0 30px;
+    }
+    .tn-teachers .carousel .carousel-control{
+        width: 30px;
+        height: 30px;
+    }
+    .carousel-control.right{
+        right: -5px;
+    }
+    .carousel-control.left{
+        left: -5px;
+    }
+    .tn-teachers .carousel .carousel-control .glyphicon-chevron-right{
+        font-size: 18px;
+        top: 50%;
+    }
+    .tn-teachers .carousel .carousel-control .glyphicon-chevron-left{
+        font-size: 18px;
+        top: 50%;
+    }
+    .tn-de-title{
+        margin-top: 35px;
+    }
+    .center-block{
+        h1{
+            font-size: 28px;
+        }
+    }
+    .btn-facebook, .btn-google{
+        font-size: 13px;
+    } 
+}
